@@ -6,7 +6,50 @@ $textWhite: white;
 $mainTextSize: 10%;
 $secondaryTextSize: 5%;
 $boldTextSize: 30px;
-$boldTextSizeResp: 18px;
+$boldTextSizeResp: 30px;
 $placeholderTxtSize: 12px;
 $txtHoverColor: #B4B4B3;
 $font :  Arial, Helvetica, sans-serif;
+
+
+body{
+    width:100%;
+}
+#productCard{
+    display : flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:95%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.prodCard{
+    width:25%;
+    height:1000px;
+    font-family: $font;
+    font-size: $boldTextSizeResp;
+    border: 2px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+
+}
+img{
+    width:50%;
+    height:600px;
+    margin-bottom: 70px;
+    border-radius: 50px;
+
+}
+span{
+    font-size: 35px;
+    font-weight: bold;
+}
+p{
+    max-width: 50%;
+}
