@@ -6,7 +6,7 @@ $textWhite: white;
 $mainTextSize: 10%;
 $secondaryTextSize: 5%;
 $boldTextSize: 30px;
-$boldTextSizeResp: 30px;
+$boldTextSizeResp: 15px;
 $placeholderTxtSize: 12px;
 $txtHoverColor: #B4B4B3;
 $font :  Arial, Helvetica, sans-serif;
@@ -21,35 +21,35 @@ body{
     flex-wrap: wrap;
     width:95%;
     justify-content: center;
+    justify-items: center;
     align-content: center;
     align-items: center;
     gap: 100px;
 }
 .prodCard{
     width:25%;
-    height:1000px;
+    height:600px;
     font-family: $font;
     font-size: $boldTextSizeResp;
     border: 2px solid;
-    border-radius: 20px;
+    border-radius: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    justify-items: center;
     padding-top: 40px;
 
 }
 img{
-    width:50%;
-    height:600px;
-    margin-bottom: 70px;
-    border-radius: 50px;
-
+    width:30%;
+    height:150px;
+    margin-bottom: 50px;
 }
 span{
-    font-size: 35px;
+    font-size: 20px;
     font-weight: bold;
 }
 p{
-    max-width: 50%;
+    max-width: 35px;
 }
