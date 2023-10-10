@@ -50,6 +50,23 @@ span{
     font-size: 20px;
     font-weight: bold;
 }
-p{
-    max-width: 35px;
+// p{
+//     max-width: 35px;
+// }
+.createForm{
+    border: 1px solid;
+    width: 90%;
+    height: 500px;
+    margin: 5%;
+}
+#createFormInfo{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+}
+.formA{
+    display: inline-block;
+    // text-align: center;
+    
+
 }

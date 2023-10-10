@@ -52,7 +52,8 @@ const productCardCo = document.getElementById("productCard");
             <p><span>Title:</span> ${product.title}</p>
             <p><span>Price:</span> ${product.price}</p>
             <p><span>Category:</span> ${product.category}</p>
-            </div>
+            <input id="deleteBtn" type="delete" value="Delete" onclick="stdClick(event)">
+            <input id="updateBtn" type="submit" value="Update" onclick="stdClick(event)">
         </div>
         `;
         // document.getElementById('productObjCard').innerHTML += cardData;

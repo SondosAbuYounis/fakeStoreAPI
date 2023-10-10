@@ -60,7 +60,25 @@ span {
   font-weight: bold;
 }
 
-p {
-  max-width: 35px;
+.createForm {
+  border: 1px solid;
+  width: 90%;
+  height: 500px;
+  margin: 5%;
+}
+
+#createFormInfo {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.formA {
+  display: inline-block;
 }
 /*# sourceMappingURL=style.css.map */

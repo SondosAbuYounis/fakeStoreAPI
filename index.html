@@ -37,6 +37,38 @@
 <!-- Home  -->
     <div id="productCard"></div>
 
+
+<!-- POST -->
+<div class="createForm">
+    <div id="createFormInfo">Create a post</div>
+    <br> <br>
+    <form class="formA">
+        <label for="prodTitleTxt">Product's title: </label>
+        <input class="prodTitleTxt" name="Product's title" placeholder="title"></input>
+        <br><br>
+        <label for="prodPrice">Product's price: </label>
+        <input class="phoneTxt" name="Phone Number"type="tel" placeholder="+962 0 0000 0000"></input>
+        <br><br>
+        <label for="gradeTxt">Grade</label>
+        <input class="gradeTxt" name="Grade" placeholder="00th Grade"></input>
+        <br><br>
+        <label for="prodCategory">Category</label>
+        <select id="prodCategoryOpt" name="Category">
+            <option value="option1">Women's Clothes</option>
+            <option value="option2">IT</option>
+            <option value="option3">Science</option>
+            <option value="option4">Art</option>
+        </select>
+        <br><br>
+        <label for="prodPic">Product Picture</label>
+        <input type="file" name="Identification Picture">
+        <br><br>
+        <input id="post" type="submit" value="Post" onclick="stdClick(event)">
+        <br>
+    </form>
+</div>
+
+
 <!-- Footer  -->
 <footer class="container-fluid py-5, p-3 my-5" >
     <div class="row">
