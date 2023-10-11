@@ -5,8 +5,8 @@ $secondaryTextColor: #F0F0F0;
 $textWhite: white;
 $mainTextSize: 10%;
 $secondaryTextSize: 5%;
-$boldTextSize: 30px;
-$boldTextSizeResp: 15px;
+$boldTextSize: 15px;
+$boldTextSizeResp: 10px;
 $placeholderTxtSize: 12px;
 $txtHoverColor: #B4B4B3;
 $font :  Arial, Helvetica, sans-serif;
@@ -24,49 +24,77 @@ body{
     justify-items: center;
     align-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
 }
 .prodCard{
-    width:25%;
-    height:600px;
+    width:20%;
+    height:400px;
     font-family: $font;
     font-size: $boldTextSizeResp;
-    border: 2px solid;
-    border-radius: 100px;
+    border: 1px solid $navFooterBgColor;
+    color: $mainTextColor;    
+    border-radius: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
-    justify-items: center;
+    // justify-items: center;
     padding-top: 40px;
-
+}
+.cardContents{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    max-width: 80%;
 }
 img{
-    width:30%;
-    height:150px;
+    width:25%;
+    height:95px;
     margin-bottom: 50px;
 }
 span{
-    font-size: 20px;
+    font-size: 12px;
     font-weight: bold;
 }
-// p{
-//     max-width: 35px;
-// }
+
 .createForm{
-    border: 1px solid;
     width: 90%;
     height: 500px;
     margin: 5%;
+    border: 1px solid $navFooterBgColor;
+    color: $mainTextColor;    
+    border-radius: 50px;
+
 }
 #createFormInfo{
     width:80%;
     display: flex;
     flex-direction: column;
+    padding: 2%;
 }
 .formA{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     // text-align: center;
-    
-
+}
+input[type=submit]{
+    font-family: $font;
+    background-color: $mainTextColor;
+    color: $textWhite;
+    border: 1px;
+    border-radius: 30px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 8%;
+}
+input[type=delete]{
+    font-family: $font;
+    background-color: $secondaryTextColor;
+    color: $mainTextColor;
+    border: 1px;
+    border-radius: 35px;
+    width: 100px;
+    text-align: center;
 }

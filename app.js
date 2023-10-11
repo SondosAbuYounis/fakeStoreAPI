@@ -49,28 +49,21 @@ const productCardCo = document.getElementById("productCard");
         <div class="prodCard" >
             <img src="${product.image}" alt="${product.title}">
             <div class="cardContents">
-            <p><span>Title:</span> ${product.title}</p>
-            <p><span>Price:</span> ${product.price}</p>
-            <p><span>Category:</span> ${product.category}</p>
-            <input id="deleteBtn" type="delete" value="Delete" onclick="stdClick(event)">
-            <input id="updateBtn" type="submit" value="Update" onclick="stdClick(event)">
+                <p><span>Title:</span> ${product.title}</p>
+                <p><span>Price:</span> ${product.price}</p>
+                <p><span>Category:</span> ${product.category}</p>
+                <input id="deleteBtn" type="delete" value="Delete" id="$delete.id}" onclick="stdClick(event)">
+                <br>
+                <input id="updateBtn" type="submit" value="Update" id="$update.id}" onclick="stdClick(event)">
+            </div>
         </div>
         `;
         // document.getElementById('productObjCard').innerHTML += cardData;
         productCardCo.innerHTML += cardData;
-    })
-        
+    })  
     }
 // }
 // })
 
 
-
-
-
-// local storage 
-        // localStorage.setItem("productarray", JSON.stringify(productArr))
-        // // console.log("getLocal", )
-        // var localStorageData = JSON.parse(localStorage.getItem("productarray"));
-        // cardDisplay(localStorageData)
 
